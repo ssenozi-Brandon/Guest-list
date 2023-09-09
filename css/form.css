@@ -1,0 +1,117 @@
+   
+   *{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px
+   }
+   body{
+    background-color: #333;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   a{
+    text-decoration: none;
+   }
+   .text-primary{
+    color: #37a08e;
+   }
+   
+   #container{
+    margin: auto;
+    max-width: 768px;
+    padding: 30px 20px;
+    height: 90vh;
+   }
+   .form-wrap{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+   }
+   .form-wrap h1,.form-wrap p{
+    text-align:center;
+    margin: 10px auto 5px auto;
+   }
+   .form-wrap h1{
+    font-size: 50px;
+    font-weight: 700;
+   }
+   .form-wrap p{
+    font-size: 25px;
+   }
+   .form-wrap .form-group{
+    margin: 30px auto;
+   }
+   .form-wrap .form-group label {
+    display: block;
+    font-size: 18px;
+    font-size: 30px;
+   }
+   .form-wrap .form-group input{
+    width:100%;
+    padding: 20px;
+    border:1px #ddd solid;
+   }
+   .form-wrap button{
+    display: block;
+    width:100%;
+    margin-top: 20px;
+    padding:20px;
+    font-size: 28px;
+    background-color:#49c1a2;
+    border-radius: 5px;
+    border:1px transparent;
+   }
+   .form-wrap button:hover{
+    background-color: #37a08e;
+   }
+
+   .form-wrap .bottom-text {
+    margin-top: 40px;
+   }
+   .form-wrap .bottom-text a{
+    color: #37a08e;
+   }
+   .form-wrap .bottom-text a:hover{
+    color:coral;
+   }
+   footer{
+    text-align: center;
+    color: antiquewhite;
+    margin-top:10px;
+    font-size: 30px;
+   }
+    
+   footer a{
+    color:#49c1a2;
+   }
+
+   @media (max-width:600px){
+      #container{
+      margin: auto;
+      max-width: 600px;
+      padding: 30px 20px;
+      height: 100vh;}
+  
+      .form-wrap p{
+      font-size: 20px
+      }
+      
+      .form-wrap .form-group label {
+      display: block;
+      font-size: 18px;
+      font-size: 20px;
+     }
+     .form-wrap .form-group input{
+      width:100%;
+      padding: 10px;
+      border:1px #ddd solid;
+     }
+     footer{
+      text-align: center;
+      color: antiquewhite;
+      margin-top:10px;
+      font-size: 20px;
+     }
+  
+     }
